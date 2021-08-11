@@ -1,0 +1,32 @@
+header {
+  background-color: black;
+}
+header ul li {
+  display: inline-block;
+  margin: 10px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  background-color: lightblue;
+  color: white;
+}
+main {
+  margin: 50px 10px 50px 10px;
+  text-align: justify;
+}
+p {
+  column-count: 4;
+  column-fill: balance;
+  column-rule: 5px double black;
+  font-size: small;
+}
+footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
